@@ -1,0 +1,44 @@
+name: smartify
+description: "SMARTIFY - Campus Grievance Management System (MCA Android-First Application)"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management (Fixed Stack: Provider only)
+  provider: ^6.1.2
+
+  # Backend, Authentication & Storage (Fixed Stack: Supabase only)
+  supabase_flutter: ^2.8.0
+
+  # Data Visualization (Fixed Stack: fl_chart)
+  fl_chart: ^0.69.0
+
+  # Reporting & Export (Fixed Stack: PDF & CSV)
+  pdf: ^3.11.1
+  csv: ^6.0.0
+  path_provider: ^2.1.5
+  open_filex: ^4.5.0
+
+  # Utilities & Input Handling
+  intl: ^0.19.0
+  file_picker: ^8.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/

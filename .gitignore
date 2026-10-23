@@ -1,0 +1,55 @@
+# Environment & Secret files (STRICTLY EXCLUDED FROM VERSION CONTROL)
+.env
+.env.*
+!.env.example
+*.env
+*.local
+credentials.json
+secrets/
+*.key
+*.pem
+*.keystore
+*.jks
+key.properties
+supabase/.temp/
+
+# Flutter & Dart build artifacts
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+*.apk
+*.aab
+
+# Android Studio / IntelliJ / IDEs / Local Machine Configuration
+.idea/
+*.iml
+.gradle/
+android/.gradle/
+local.properties
+android/local.properties
+android/captures/
+.vscode/
+
+# Logs & scratch debug dumps
+*.log
+*.log.*
+scratch/
+artifacts/qa/*.png
+artifacts/qa/*.xml
+/*.png
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
